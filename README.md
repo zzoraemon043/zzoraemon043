@@ -56,6 +56,10 @@ GUI editor and CLI for `.yh` game asset packages: tree browser, image / audio pr
 </tr>
 </table>
 
+### Open source contributions
+
+- [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149) (merged) — fix a silent crash when a Live2D model's texture is missing (OpenGL backend)
+
 ### Tech stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -87,6 +91,10 @@ GUI editor and CLI for `.yh` game asset packages: tree browser, image / audio pr
 | [Dev Workbench](https://github.com/zzoraemon043/dev-workbench) | 一個分頁搞定 JSON、正規表示式、JWT、文字比對、編碼轉換與 WebSocket 除錯（[線上試用](https://zzoraemon043.github.io/dev-workbench/)） |
 | [Web Mock Studio](https://github.com/zzoraemon043/web-mock-studio) | 在瀏覽器裡模擬 API、從範例反推 JSON Schema、cURL 轉模擬規則（[線上試用](https://zzoraemon043.github.io/web-mock-studio/)） |
 | [YhEditor](https://github.com/zzoraemon043/YhEditor) | `.yh` 遊戲素材封裝檔的圖形修改器與命令列工具 |
+
+### 開源貢獻
+
+- [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149)（已合併）：修正 Live2D 模型缺少貼圖時無聲閃退的問題
 
 <div align="center">
 <sub>如果有幫到你，歡迎點個星星！ · If something here helps you, a star is always appreciated!</sub>
