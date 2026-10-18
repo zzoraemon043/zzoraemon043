@@ -57,6 +57,6 @@
   </g>
 
   <text class="t" x="56" y="92" font-size="44" font-weight="700" fill="#ffffff">Hi, I'm Oba Yang</text>
-  <text class="t" x="56" y="128" font-size="20" fill="url(#accent)" font-weight="600">歐巴羊 · Game Tools · Live2D / Spine · Offline-first Dev Tools</text>
+  <text class="t" x="56" y="128" font-size="20" fill="url(#accent)" font-weight="600">歐巴羊 · Software Tools · Live2D / Spine · Offline-first Dev Tools</text>
   <text class="t" x="56" y="166" font-size="16" fill="#c9c4e8">Building tools that run on your machine — no upload, no account.</text>
 </svg>
