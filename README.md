@@ -83,6 +83,11 @@ GUI editor and CLI for `.yh` asset packages: tree browser, image and audio previ
 </td>
 <td width="50%" valign="top">
 
+#### [layerdesk](https://github.com/zzoraemon043/layerdesk)
+Open a PSD in the browser, move, scale, rotate and group its layers, save it back. Includes a rigging check for Live2D and Spine.
+
+`React` `TypeScript` `Canvas` · [**Live demo**](https://zzoraemon043.github.io/layerdesk/)
+
 </td>
 </tr>
 </table>
@@ -130,6 +135,7 @@ GUI editor and CLI for `.yh` asset packages: tree browser, image and audio previ
 | [zhtw-guard](https://github.com/zzoraemon043/zhtw-guard) | 找出程式碼、文件與 AI 回覆中混入的簡體字、大陸用語與編碼問題（[npm](https://www.npmjs.com/package/zhtw-guard)） |
 | [Dev Workbench](https://github.com/zzoraemon043/dev-workbench) | 一個分頁搞定 JSON、正規表達式、JWT、文字比對、編碼轉換與 WebSocket 除錯（[線上試用](https://zzoraemon043.github.io/dev-workbench/)） |
 | [sqlpane](https://github.com/zzoraemon043/sqlpane) | 拖進 CSV、Excel、Parquet、SQLite 或 MySQL／SQL Server 匯出檔，直接用 SQL 查詢，離線在瀏覽器執行（[線上試用](https://zzoraemon043.github.io/sqlpane/)） |
+| [layerdesk](https://github.com/zzoraemon043/layerdesk) | 在瀏覽器打開 PSD，拖曳、縮放、旋轉、整理圖層後存回 PSD，並檢查匯入 Live2D／Spine 前的拆件問題（[線上試用](https://zzoraemon043.github.io/layerdesk/)） |
 | [Web Mock Studio](https://github.com/zzoraemon043/web-mock-studio) | 在瀏覽器裡模擬 API、從範例反推 JSON Schema、cURL 轉模擬規則（[線上試用](https://zzoraemon043.github.io/web-mock-studio/)） |
 | [YhEditor](https://github.com/zzoraemon043/YhEditor) | `.yh` 素材封裝檔的圖形修改器與命令列工具 |
 
