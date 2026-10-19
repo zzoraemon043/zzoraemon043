@@ -90,6 +90,7 @@ GUI editor and CLI for `.yh` asset packages: tree browser, image and audio previ
 ### Open source contributions
 
 - [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149) (merged): fix a silent crash when a Live2D model's texture is missing (OpenGL backend)
+- [CherryHQ/cherry-studio#21954](https://github.com/CherryHQ/cherry-studio/pull/21954) (merged): stop CJK text files from being detected as binary
 
 ### Tech stack
 
@@ -131,6 +132,7 @@ GUI editor and CLI for `.yh` asset packages: tree browser, image and audio previ
 ### 開源貢獻
 
 - [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149)（已合併）：修正 Live2D 模型缺少貼圖時無聲閃退的問題
+- [CherryHQ/cherry-studio#21954](https://github.com/CherryHQ/cherry-studio/pull/21954)（已合併）：修正中日韓文字檔被誤判為二進位檔的問題
 
 <div align="center">
 <sub>如果有幫到你，歡迎點個星星 · If something here helps you, a star is always appreciated</sub>
