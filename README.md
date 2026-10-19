@@ -94,6 +94,7 @@ GUI editor and CLI for `.yh` asset packages: tree browser, image and audio previ
 - [dexie/Dexie.js#2353](https://github.com/dexie/Dexie.js/pull/2353) (merged): ignore errors from aborted liveQuery runs after unsubscribe
 - [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687) (merged): fix errors in the KeyboardCameraManipulator example
 - [holistics/dbml#1009](https://github.com/holistics/dbml/pull/1009) (merged): keep the written order of index columns when parsing
+- [ThatOpen/engine_components#835](https://github.com/ThatOpen/engine_components/pull/835) (merged): type FragmentsManager.init options correctly
 
 ### Tech stack
 
@@ -139,6 +140,7 @@ GUI editor and CLI for `.yh` asset packages: tree browser, image and audio previ
 - [dexie/Dexie.js#2353](https://github.com/dexie/Dexie.js/pull/2353)（已合併）：修正 liveQuery 取消訂閱後，被中止的查詢仍丟出錯誤
 - [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687)（已合併）：修正鍵盤控制 3D 相機範例執行時報錯
 - [holistics/dbml#1009](https://github.com/holistics/dbml/pull/1009)（已合併）：修正解析資料庫索引時欄位順序被打亂
+- [ThatOpen/engine_components#835](https://github.com/ThatOpen/engine_components/pull/835)（已合併）：修正 BIM 3D 引擎初始化參數的型別定義
 
 <div align="center">
 <sub>如果有幫到你，歡迎點個星星 · If something here helps you, a star is always appreciated</sub>
