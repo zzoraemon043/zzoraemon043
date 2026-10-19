@@ -97,6 +97,7 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 - [pycollada/pycollada#166](https://github.com/pycollada/pycollada/pull/166) (merged): drop XML comments and processing instructions when parsing COLLADA files with lxml
 - [dcmjs-org/dcmjs#610](https://github.com/dcmjs-org/dcmjs/pull/610) (merged): format DS numbers to 16 characters instead of cutting off the exponent
 - [AlaSQL/alasql#2602](https://github.com/AlaSQL/alasql/pull/2602) (merged): key the statement cache on the SQL text instead of its hash
+- [moeru-ai/airi#3026](https://github.com/moeru-ai/airi/pull/3026) (merged): load the Kokoro TTS model in the window that generates speech
 
 ### Tech stack
 
@@ -148,6 +149,7 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 - [pycollada/pycollada#166](https://github.com/pycollada/pycollada/pull/166)（已合併）：修正 3D 模型格式 COLLADA 檔案含註解時讀取失敗
 - [dcmjs-org/dcmjs#610](https://github.com/dcmjs-org/dcmjs/pull/610)（已合併）：修正醫療影像 DICOM 檔案寫入小數時，科學記號的指數被截掉
 - [AlaSQL/alasql#2602](https://github.com/AlaSQL/alasql/pull/2602)（已合併）：修正 JavaScript SQL 資料庫快取碰撞，兩句不同的 SQL 會拿到同一個結果
+- [moeru-ai/airi#3026](https://github.com/moeru-ai/airi/pull/3026)（已合併）：修正 AI 虛擬角色桌面版在設定視窗試聽 Kokoro 語音時報錯
 
 <div align="center">
 <sub>如果有幫到你，歡迎點個星星 · If something here helps you, a star is always appreciated</sub>
