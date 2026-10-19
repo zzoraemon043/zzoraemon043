@@ -92,6 +92,7 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 - [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687) (merged): fix errors in the KeyboardCameraManipulator example
 - [holistics/dbml#1009](https://github.com/holistics/dbml/pull/1009) (merged): keep the written order of index columns when parsing
 - [ThatOpen/engine_components#835](https://github.com/ThatOpen/engine_components/pull/835) (merged): type FragmentsManager.init options correctly
+- [ormar-orm/ormar#1865](https://github.com/ormar-orm/ormar/pull/1865) (merged): make get() after exclude() report multiple matches
 
 ### Tech stack
 
@@ -138,6 +139,7 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 - [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687)（已合併）：修正鍵盤控制 3D 相機範例執行時報錯
 - [holistics/dbml#1009](https://github.com/holistics/dbml/pull/1009)（已合併）：修正解析資料庫索引時欄位順序被打亂
 - [ThatOpen/engine_components#835](https://github.com/ThatOpen/engine_components/pull/835)（已合併）：修正 BIM 3D 引擎初始化參數的型別定義
+- [ormar-orm/ormar#1865](https://github.com/ormar-orm/ormar/pull/1865)（已合併）：修正 Python ORM 用排除條件查詢時，多筆結果沒有回報錯誤
 
 <div align="center">
 <sub>如果有幫到你，歡迎點個星星 · If something here helps you, a star is always appreciated</sub>
