@@ -95,6 +95,7 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 - [ormar-orm/ormar#1865](https://github.com/ormar-orm/ormar/pull/1865) (merged): make get() after exclude() report multiple matches
 - [greggman/twgl.js#246](https://github.com/greggman/twgl.js/pull/246) (merged): emit declare namespace for v3, m4 and primitives in the TypeScript definitions
 - [pycollada/pycollada#166](https://github.com/pycollada/pycollada/pull/166) (merged): drop XML comments and processing instructions when parsing COLLADA files with lxml
+- [dcmjs-org/dcmjs#610](https://github.com/dcmjs-org/dcmjs/pull/610) (merged): format DS numbers to 16 characters instead of cutting off the exponent
 
 ### Tech stack
 
@@ -144,6 +145,7 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 - [ormar-orm/ormar#1865](https://github.com/ormar-orm/ormar/pull/1865)（已合併）：修正 Python ORM 用排除條件查詢時，多筆結果沒有回報錯誤
 - [greggman/twgl.js#246](https://github.com/greggman/twgl.js/pull/246)（已合併）：修正 WebGL 函式庫的 TypeScript 型別定義，讓 v3、m4 等模組可以正常引用
 - [pycollada/pycollada#166](https://github.com/pycollada/pycollada/pull/166)（已合併）：修正 3D 模型格式 COLLADA 檔案含註解時讀取失敗
+- [dcmjs-org/dcmjs#610](https://github.com/dcmjs-org/dcmjs/pull/610)（已合併）：修正醫療影像 DICOM 檔案寫入小數時，科學記號的指數被截掉
 
 <div align="center">
 <sub>如果有幫到你，歡迎點個星星 · If something here helps you, a star is always appreciated</sub>
