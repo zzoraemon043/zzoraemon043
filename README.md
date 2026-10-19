@@ -92,6 +92,7 @@ GUI editor and CLI for `.yh` asset packages: tree browser, image and audio previ
 - [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149) (merged): fix a silent crash when a Live2D model's texture is missing (OpenGL backend)
 - [CherryHQ/cherry-studio#21954](https://github.com/CherryHQ/cherry-studio/pull/21954) (merged): stop CJK text files from being detected as binary
 - [dexie/Dexie.js#2353](https://github.com/dexie/Dexie.js/pull/2353) (merged): ignore errors from aborted liveQuery runs after unsubscribe
+- [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687) (merged): fix errors in the KeyboardCameraManipulator example
 
 ### Tech stack
 
@@ -135,6 +136,7 @@ GUI editor and CLI for `.yh` asset packages: tree browser, image and audio previ
 - [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149)（已合併）：修正 Live2D 模型缺少貼圖時無聲閃退的問題
 - [CherryHQ/cherry-studio#21954](https://github.com/CherryHQ/cherry-studio/pull/21954)（已合併）：修正中日韓文字檔被誤判為二進位檔的問題
 - [dexie/Dexie.js#2353](https://github.com/dexie/Dexie.js/pull/2353)（已合併）：修正 liveQuery 取消訂閱後，被中止的查詢仍丟出錯誤
+- [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687)（已合併）：修正鍵盤控制 3D 相機範例執行時報錯
 
 <div align="center">
 <sub>如果有幫到你，歡迎點個星星 · If something here helps you, a star is always appreciated</sub>
