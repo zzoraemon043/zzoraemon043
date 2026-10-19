@@ -99,6 +99,13 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 - [AlaSQL/alasql#2602](https://github.com/AlaSQL/alasql/pull/2602) (merged): key the statement cache on the SQL text instead of its hash
 - [moeru-ai/airi#3026](https://github.com/moeru-ai/airi/pull/3026) (merged): load the Kokoro TTS model in the window that generates speech
 
+### Special contributions
+
+Private projects; source not public.
+
+- Game server core (Java): brought a decompiled server back to a clean build, 877 compile errors to 0, with the class list matching the original build
+- Game client (C++, Windows x86): proxy DLL with export forwarding, an API hook framework on Microsoft Detours with logging, and a rebuilt launcher verified case by case against the original binary
+
 ### Tech stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -150,6 +157,13 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 - [dcmjs-org/dcmjs#610](https://github.com/dcmjs-org/dcmjs/pull/610)（已合併）：修正醫療影像 DICOM 檔案寫入小數時，科學記號的指數被截掉
 - [AlaSQL/alasql#2602](https://github.com/AlaSQL/alasql/pull/2602)（已合併）：修正 JavaScript SQL 資料庫快取碰撞，兩句不同的 SQL 會拿到同一個結果
 - [moeru-ai/airi#3026](https://github.com/moeru-ai/airi/pull/3026)（已合併）：修正 AI 虛擬角色桌面版在設定視窗試聽 Kokoro 語音時報錯
+
+### 特殊貢獻
+
+私人專案，源碼不公開。
+
+- 遊戲伺服器核心（Java）：把反編譯的伺服器修到能完整編譯，877 個編譯錯誤歸零，編出的類別清單和原版一致
+- 遊戲客戶端（C++、Windows x86）：轉發匯出的代理 DLL、以 Microsoft Detours 實作的 API 掛鉤框架與日誌，並重建登入器、逐項和原版二進位比對驗證
 
 <div align="center">
 <sub>如果有幫到你，歡迎點個星星 · If something here helps you, a star is always appreciated</sub>
