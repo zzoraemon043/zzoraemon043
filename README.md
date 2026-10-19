@@ -75,14 +75,6 @@ Mock any API in your browser with a Service Worker, synthesize JSON Schema from 
 <tr>
 <td width="50%" valign="top">
 
-#### [YhEditor](https://github.com/zzoraemon043/YhEditor)
-GUI editor and CLI for `.yh` asset packages: tree browser, image and audio preview, replace, export and repack.
-
-`C#` `.NET 10` `WinForms`
-
-</td>
-<td width="50%" valign="top">
-
 #### [layerdesk](https://github.com/zzoraemon043/layerdesk)
 Open a PSD in the browser, move, scale, rotate and group its layers, save it back. Includes a rigging check for Live2D and Spine.
 
@@ -137,7 +129,6 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 | [sqlpane](https://github.com/zzoraemon043/sqlpane) | 拖進 CSV、Excel、Parquet、SQLite 或 MySQL／SQL Server 匯出檔，直接用 SQL 查詢，離線在瀏覽器執行（[線上試用](https://zzoraemon043.github.io/sqlpane/)） |
 | [layerdesk](https://github.com/zzoraemon043/layerdesk) | 在瀏覽器打開 PSD，拖曳、縮放、旋轉、整理圖層後存回 PSD，並檢查匯入 Live2D／Spine 前的拆件問題（[線上試用](https://zzoraemon043.github.io/layerdesk/)） |
 | [Web Mock Studio](https://github.com/zzoraemon043/web-mock-studio) | 在瀏覽器裡模擬 API、從範例反推 JSON Schema、cURL 轉模擬規則（[線上試用](https://zzoraemon043.github.io/web-mock-studio/)） |
-| [YhEditor](https://github.com/zzoraemon043/YhEditor) | `.yh` 素材封裝檔的圖形修改器與命令列工具 |
 
 ### 開源貢獻
 
