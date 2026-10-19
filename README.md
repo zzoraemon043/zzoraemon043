@@ -57,18 +57,31 @@ One offline tab for JSON, Regex, JWT, Diff, encoder pipelines and WebSocket debu
 <tr>
 <td width="50%" valign="top">
 
+#### [sqlpane](https://github.com/zzoraemon043/sqlpane)
+Drop in CSV, Excel, Parquet, SQLite or a MySQL / SQL Server dump and query it with SQL, offline in the browser on DuckDB-WASM.
+
+`TypeScript` `DuckDB` · [**Live demo**](https://zzoraemon043.github.io/sqlpane/)
+
+</td>
+<td width="50%" valign="top">
+
 #### [Web Mock Studio](https://github.com/zzoraemon043/web-mock-studio)
 Mock any API in your browser with a Service Worker, synthesize JSON Schema from samples, turn cURL into mock rules.
 
 `TypeScript` `Service Worker` · [**Live demo**](https://zzoraemon043.github.io/web-mock-studio/)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### [YhEditor](https://github.com/zzoraemon043/YhEditor)
 GUI editor and CLI for `.yh` asset packages: tree browser, image and audio preview, replace, export and repack.
 
 `C#` `.NET 10` `WinForms`
+
+</td>
+<td width="50%" valign="top">
 
 </td>
 </tr>
@@ -111,6 +124,7 @@ GUI editor and CLI for `.yh` asset packages: tree browser, image and audio previ
 | [hexsleuth](https://github.com/zzoraemon043/hexsleuth) | 讓 AI 從樣本檔推導二進位檔案格式，產出規格書、Kaitai Struct 定義、解析程式與測試（[npm](https://www.npmjs.com/package/hexsleuth)） |
 | [zhtw-guard](https://github.com/zzoraemon043/zhtw-guard) | 找出程式碼、文件與 AI 回覆中混入的簡體字、大陸用語與編碼問題（[npm](https://www.npmjs.com/package/zhtw-guard)） |
 | [Dev Workbench](https://github.com/zzoraemon043/dev-workbench) | 一個分頁搞定 JSON、正規表達式、JWT、文字比對、編碼轉換與 WebSocket 除錯（[線上試用](https://zzoraemon043.github.io/dev-workbench/)） |
+| [sqlpane](https://github.com/zzoraemon043/sqlpane) | 拖進 CSV、Excel、Parquet、SQLite 或 MySQL／SQL Server 匯出檔，直接用 SQL 查詢，離線在瀏覽器執行（[線上試用](https://zzoraemon043.github.io/sqlpane/)） |
 | [Web Mock Studio](https://github.com/zzoraemon043/web-mock-studio) | 在瀏覽器裡模擬 API、從範例反推 JSON Schema、cURL 轉模擬規則（[線上試用](https://zzoraemon043.github.io/web-mock-studio/)） |
 | [YhEditor](https://github.com/zzoraemon043/YhEditor) | `.yh` 素材封裝檔的圖形修改器與命令列工具 |
 
