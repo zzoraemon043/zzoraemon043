@@ -101,7 +101,7 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 
 ### Special contributions
 
-Private repositories. For complete AICL/BOBO/達楓/MASTERY MS/青蘋果/維克 (repair in progress) server sources and launchers, feel free to contact me.
+Private repositories. For complete AICL/BOBO/達楓/MASTERY MS/青蘋果/維克 (repair in progress) server and launcher source code, feel free to contact me.
 
 - [vtxe02023274/aicl-v113#12](https://github.com/vtxe02023274/aicl-v113/pull/12) (merged): fix compile errors in the server submodules (86 errors, lost generics and final reassignments)
 - [vtxe02023274/aicl-v113#13](https://github.com/vtxe02023274/aicl-v113/pull/13) (merged): fix compile errors in server/ui (71 errors, lost generics and a shadowed package name)
@@ -169,7 +169,7 @@ Private repositories. For complete AICL/BOBO/達楓/MASTERY MS/青蘋果/維克 
 
 ### 特殊貢獻
 
-私人倉庫，如需 AICL/BOBO/達楓/MASTERY MS/青蘋果/維克(目前修復中) 完整開源端口及登入器，可聯繫我
+私人倉庫，如需 AICL/BOBO/達楓/MASTERY MS/青蘋果/維克(目前修復中) 完整端口及登入器源碼，可聯繫我
 
 - [vtxe02023274/aicl-v113#12](https://github.com/vtxe02023274/aicl-v113/pull/12)（已合併）：修正 server 子模組編譯錯誤（86 個，泛型遺失與 final 變數重新指派）
 - [vtxe02023274/aicl-v113#13](https://github.com/vtxe02023274/aicl-v113/pull/13)（已合併）：修正 server/ui 編譯錯誤（71 個，泛型遺失與套件名被同名欄位遮蔽）
