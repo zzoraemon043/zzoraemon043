@@ -98,6 +98,7 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 - [dcmjs-org/dcmjs#610](https://github.com/dcmjs-org/dcmjs/pull/610) (merged): format DS numbers to 16 characters instead of cutting off the exponent
 - [AlaSQL/alasql#2602](https://github.com/AlaSQL/alasql/pull/2602) (merged): key the statement cache on the SQL text instead of its hash
 - [moeru-ai/airi#3026](https://github.com/moeru-ai/airi/pull/3026) (merged): load the Kokoro TTS model in the window that generates speech
+- [mozman/ezdxf#1449](https://github.com/mozman/ezdxf/pull/1449) (merged): allow line breaks between CJK characters in MTEXT layout
 
 ### Special contributions
 
@@ -166,6 +167,7 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 - [dcmjs-org/dcmjs#610](https://github.com/dcmjs-org/dcmjs/pull/610)（已合併）：修正醫療影像 DICOM 檔案寫入小數時，科學記號的指數被截掉
 - [AlaSQL/alasql#2602](https://github.com/AlaSQL/alasql/pull/2602)（已合併）：修正 JavaScript SQL 資料庫快取碰撞，兩句不同的 SQL 會拿到同一個結果
 - [moeru-ai/airi#3026](https://github.com/moeru-ai/airi/pull/3026)（已合併）：修正 AI 虛擬角色桌面版在設定視窗試聽 Kokoro 語音時報錯
+- [mozman/ezdxf#1449](https://github.com/mozman/ezdxf/pull/1449)（已合併）：修正 CAD 圖檔 DXF 多行文字排版時，中文長句不會自動換行
 
 ### 特殊貢獻
 
