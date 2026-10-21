@@ -81,6 +81,14 @@ Open a PSD in the browser, move, scale, rotate and group its layers, save it bac
 `React` `TypeScript` `Canvas` · [**Live demo**](https://zzoraemon043.github.io/layerdesk/)
 
 </td>
+<td width="50%" valign="top">
+
+#### [opsleuth](https://github.com/zzoraemon043/opsleuth)
+Recover renumbered Lua 5.1 and LuaJIT 2.1 opcodes from the bytecode alone, then hand stock bytecode to your decompiler.
+
+`Python` `Lua` · [**Live demo**](https://zzoraemon043.github.io/opsleuth/)
+
+</td>
 </tr>
 </table>
 
@@ -152,6 +160,7 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 | [Dev Workbench](https://github.com/zzoraemon043/dev-workbench) | 一個分頁搞定 JSON、正規表達式、JWT、文字比對、編碼轉換與 WebSocket 除錯（[線上試用](https://zzoraemon043.github.io/dev-workbench/)） |
 | [sqlpane](https://github.com/zzoraemon043/sqlpane) | 拖進 CSV、Excel、Parquet、SQLite 或 MySQL／SQL Server 匯出檔，直接用 SQL 查詢，離線在瀏覽器執行（[線上試用](https://zzoraemon043.github.io/sqlpane/)） |
 | [layerdesk](https://github.com/zzoraemon043/layerdesk) | 在瀏覽器打開 PSD，拖曳、縮放、旋轉、整理圖層後存回 PSD，並檢查匯入 Live2D／Spine 前的拆件問題（[線上試用](https://zzoraemon043.github.io/layerdesk/)） |
+| [opsleuth](https://github.com/zzoraemon043/opsleuth) | 只靠位元碼自動還原被重新編號的 Lua 5.1／LuaJIT 2.1 opcode，輸出標準位元碼交給反編譯器（[線上試用](https://zzoraemon043.github.io/opsleuth/)） |
 | [Web Mock Studio](https://github.com/zzoraemon043/web-mock-studio) | 在瀏覽器裡模擬 API、從範例反推 JSON Schema、cURL 轉模擬規則（[線上試用](https://zzoraemon043.github.io/web-mock-studio/)） |
 
 ### 開源貢獻
