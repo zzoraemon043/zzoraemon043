@@ -108,6 +108,7 @@ Recover renumbered Lua 5.1 and LuaJIT 2.1 opcodes from the bytecode alone, then 
 - [moeru-ai/airi#3026](https://github.com/moeru-ai/airi/pull/3026) (merged): load the Kokoro TTS model in the window that generates speech
 - [mozman/ezdxf#1449](https://github.com/mozman/ezdxf/pull/1449) (merged): allow line breaks between CJK characters in MTEXT layout
 - [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518) (merged): return one empty column per column for empty query results
+- [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75) (merged): add zhtw-guard to the curated i18n tools list
 
 ### Special contributions
 
@@ -179,6 +180,7 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 - [moeru-ai/airi#3026](https://github.com/moeru-ai/airi/pull/3026)（已合併）：修正 AI 虛擬角色桌面版在設定視窗試聽 Kokoro 語音時報錯
 - [mozman/ezdxf#1449](https://github.com/mozman/ezdxf/pull/1449)（已合併）：修正 CAD 圖檔 DXF 多行文字排版時，中文長句不會自動換行
 - [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518)（已合併）：修正 DuckDB 的 Node.js 套件查詢結果沒有資料時，連欄位都拿不到
+- [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75)（已合併）：zhtw-guard 收錄進國際化工具精選清單 awesome-i18n
 
 ### 特殊貢獻
 
