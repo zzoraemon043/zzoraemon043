@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Oba Yang: software tools, Live2D / Spine integration and offline-first developer tools" width="100%" />
+<img src="assets/avatar.png" alt="Oba Yang" width="240" />
 
 <br/>
 
