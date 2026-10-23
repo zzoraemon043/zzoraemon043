@@ -109,6 +109,7 @@ Recover renumbered Lua 5.1 and LuaJIT 2.1 opcodes from the bytecode alone, then 
 - [mozman/ezdxf#1449](https://github.com/mozman/ezdxf/pull/1449) (merged): allow line breaks between CJK characters in MTEXT layout
 - [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518) (merged): return one empty column per column for empty query results
 - [gkjohnson/three-gpu-pathtracer#896](https://github.com/gkjohnson/three-gpu-pathtracer/pull/896) (merged): fix a ReferenceError when a scene is generated a second time
+- [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572) (merged): stop seek from throwing on a track without samples
 - [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75) (merged): add zhtw-guard to the curated i18n tools list
 
 ### Special contributions
@@ -182,6 +183,7 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 - [mozman/ezdxf#1449](https://github.com/mozman/ezdxf/pull/1449)（已合併）：修正 CAD 圖檔 DXF 多行文字排版時，中文長句不會自動換行
 - [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518)（已合併）：修正 DuckDB 的 Node.js 套件查詢結果沒有資料時，連欄位都拿不到
 - [gkjohnson/three-gpu-pathtracer#896](https://github.com/gkjohnson/three-gpu-pathtracer/pull/896)（已合併）：修正 WebGL 路徑追蹤渲染器第二次產生場景時報錯
+- [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572)（已合併）：修正 MP4 解析函式庫在沒有樣本的軌道上跳轉時報錯
 - [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75)（已合併）：zhtw-guard 收錄進國際化工具精選清單 awesome-i18n
 
 ### 特殊貢獻
