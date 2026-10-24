@@ -112,6 +112,7 @@ Recover renumbered Lua 5.1 and LuaJIT 2.1 opcodes from the bytecode alone, then 
 - [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572) (merged): stop seek from throwing on a track without samples
 - [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75) (merged): add zhtw-guard to the curated i18n tools list
 
+<!-- 暫時隱藏
 ### Special contributions
 
 Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) server and launcher source code, feel free to contact me.
@@ -127,6 +128,7 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 - [vtxe02023274/VanitasShield-v113#4](https://github.com/vtxe02023274/VanitasShield-v113/pull/4) (merged): ijl15 proxy DLL forwarding all 6 exports to the genuine library by ordinal
 - [vtxe02023274/VanitasShield-v113#5](https://github.com/vtxe02023274/VanitasShield-v113/pull/5) (merged): API hook framework on Microsoft Detours with install/remove in one transaction and a log file
 - [vtxe02023274/VanitasShield-v113#6](https://github.com/vtxe02023274/VanitasShield-v113/pull/6) (merged): verify the rebuilt launcher against the original in 5 scenarios and fix a message mismatch
+-->
 
 ### Tech stack
 
@@ -186,6 +188,7 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 - [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572)（已合併）：修正 MP4 解析函式庫在沒有樣本的軌道上跳轉時報錯
 - [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75)（已合併）：zhtw-guard 收錄進國際化工具精選清單 awesome-i18n
 
+<!-- 暫時隱藏
 ### 特殊貢獻
 
 私人倉庫，如需 AICL/達楓/青蘋果 完整端口及登入器源碼，可聯繫我
@@ -201,6 +204,7 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 - [vtxe02023274/VanitasShield-v113#4](https://github.com/vtxe02023274/VanitasShield-v113/pull/4)（已合併）：ijl15 代理 DLL，6 個匯出依序號轉給正版函式庫
 - [vtxe02023274/VanitasShield-v113#5](https://github.com/vtxe02023274/VanitasShield-v113/pull/5)（已合併）：以 Microsoft Detours 實作的 API 掛鉤框架，一次交易安裝與還原，附日誌
 - [vtxe02023274/VanitasShield-v113#6](https://github.com/vtxe02023274/VanitasShield-v113/pull/6)（已合併）：重建的登入器與原版逐項比對 5 種情境，修正一則訊息差異
+-->
 
 <div align="center">
 <sub>如果有幫到你，歡迎點個星星 · If something here helps you, a star is always appreciated</sub>
