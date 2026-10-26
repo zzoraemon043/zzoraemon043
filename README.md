@@ -115,6 +115,7 @@ Recover renumbered Lua 5.1 and LuaJIT 2.1 opcodes from the bytecode alone, then 
 - [playcanvas/engine#9798](https://github.com/playcanvas/engine/pull/9798) (merged): fix math.smoothstep and smootherstep when min is greater than max
 - [abey79/vpype#872](https://github.com/abey79/vpype/pull/872) (merged): fix the plotter unit length of the HP 7550A configuration
 - [NyarchLinux/NyarchAssistant#169](https://github.com/NyarchLinux/NyarchAssistant/pull/169) (merged): fix Live2D and VRM model names cut short in the model list
+- [qwersyk/Newelle#461](https://github.com/qwersyk/Newelle/pull/461) (merged): fix GGUF model names cut short in the llama.cpp model lists
 - [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75) (merged): add zhtw-guard to the curated i18n tools list
 
 <!-- 暫時隱藏
@@ -196,6 +197,7 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 - [playcanvas/engine#9798](https://github.com/playcanvas/engine/pull/9798)（已合併）：修正 PlayCanvas 3D 引擎的平滑插值函式在最小值大於最大值時算錯
 - [abey79/vpype#872](https://github.com/abey79/vpype/pull/872)（已合併）：修正向量繪圖工具 HP 7550A 繪圖機設定的單位長度
 - [NyarchLinux/NyarchAssistant#169](https://github.com/NyarchLinux/NyarchAssistant/pull/169)（已合併）：修正 AI 桌面助理的 Live2D／VRM 模型清單名稱被截掉字尾
+- [qwersyk/Newelle#461](https://github.com/qwersyk/Newelle/pull/461)（已合併）：修正 AI 助理 Newelle 本機模型清單的 GGUF 模型名稱被截掉字尾
 - [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75)（已合併）：zhtw-guard 收錄進國際化工具精選清單 awesome-i18n
 
 <!-- 暫時隱藏
