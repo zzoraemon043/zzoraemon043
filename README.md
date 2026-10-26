@@ -110,6 +110,10 @@ Recover renumbered Lua 5.1 and LuaJIT 2.1 opcodes from the bytecode alone, then 
 - [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518) (merged): return one empty column per column for empty query results
 - [gkjohnson/three-gpu-pathtracer#896](https://github.com/gkjohnson/three-gpu-pathtracer/pull/896) (merged): fix a ReferenceError when a scene is generated a second time
 - [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572) (merged): stop seek from throwing on a track without samples
+- [tortoise/tortoise-orm#2350](https://github.com/tortoise/tortoise-orm/pull/2350) (merged): keep auto_now values naive when use_tz is False
+- [lelit/pglast#226](https://github.com/lelit/pglast/pull/226) (merged): include the libpg_query upb sources in the sdist
+- [playcanvas/engine#9798](https://github.com/playcanvas/engine/pull/9798) (merged): fix math.smoothstep and smootherstep when min is greater than max
+- [abey79/vpype#872](https://github.com/abey79/vpype/pull/872) (merged): fix the plotter unit length of the HP 7550A configuration
 - [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75) (merged): add zhtw-guard to the curated i18n tools list
 
 <!-- 暫時隱藏
@@ -186,6 +190,10 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 - [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518)（已合併）：修正 DuckDB 的 Node.js 套件查詢結果沒有資料時，連欄位都拿不到
 - [gkjohnson/three-gpu-pathtracer#896](https://github.com/gkjohnson/three-gpu-pathtracer/pull/896)（已合併）：修正 WebGL 路徑追蹤渲染器第二次產生場景時報錯
 - [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572)（已合併）：修正 MP4 解析函式庫在沒有樣本的軌道上跳轉時報錯
+- [tortoise/tortoise-orm#2350](https://github.com/tortoise/tortoise-orm/pull/2350)（已合併）：修正 Python 非同步 ORM 關閉時區時，自動時間欄位仍帶時區
+- [lelit/pglast#226](https://github.com/lelit/pglast/pull/226)（已合併）：修正 PostgreSQL 語法解析套件的原始碼發布包缺檔，無法從原始碼安裝
+- [playcanvas/engine#9798](https://github.com/playcanvas/engine/pull/9798)（已合併）：修正 PlayCanvas 3D 引擎的平滑插值函式在最小值大於最大值時算錯
+- [abey79/vpype#872](https://github.com/abey79/vpype/pull/872)（已合併）：修正向量繪圖工具 HP 7550A 繪圖機設定的單位長度
 - [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75)（已合併）：zhtw-guard 收錄進國際化工具精選清單 awesome-i18n
 
 <!-- 暫時隱藏
