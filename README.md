@@ -21,10 +21,10 @@
 <tr>
 <td width="50%" valign="top">
 
-#### [nocollide](https://github.com/zzoraemon043/nocollide)
-Run parallel coding agents without collisions: each git worktree gets its own ports and `.env`. No containers, works with any agent.
+#### [slotenv](https://github.com/zzoraemon043/slotenv)
+Run parallel coding agents without collisions: each git worktree gets its own ports, `.env` and database. No containers, works with any agent.
 
-`TypeScript` `CLI` · [**npm**](https://www.npmjs.com/package/nocollide)
+`TypeScript` `CLI` · [**npm**](https://www.npmjs.com/package/slotenv)
 
 </td>
 <td width="50%" valign="top">
@@ -134,7 +134,7 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 
 | 專案 | 說明 |
 |---|---|
-| [nocollide](https://github.com/zzoraemon043/nocollide) | 同時跑多個 AI 寫程式代理不打架：每個 git worktree 有自己的埠與 .env，不用容器（[npm](https://www.npmjs.com/package/nocollide)） |
+| [slotenv](https://github.com/zzoraemon043/slotenv) | 同時跑多個 AI 寫程式代理不打架：每個 git worktree 有自己的埠、.env 與資料庫，不用容器（[npm](https://www.npmjs.com/package/slotenv)） |
 | [Spine Asset Inspector](https://github.com/zzoraemon043/spine-asset-inspector) | 在瀏覽器檢視、除錯、匯出 Spine 動畫（[線上試用](https://zzoraemon043.github.io/spine-asset-inspector/)） |
 | [hexsleuth](https://github.com/zzoraemon043/hexsleuth) | 讓 AI 從樣本檔推導二進位檔案格式，產出規格書、解析程式與測試（[npm](https://www.npmjs.com/package/hexsleuth)） |
 | [layerdesk](https://github.com/zzoraemon043/layerdesk) | 在瀏覽器整理 PSD 圖層並存回，檢查 Live2D／Spine 拆件問題（[線上試用](https://zzoraemon043.github.io/layerdesk/)） |
