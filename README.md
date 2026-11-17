@@ -65,7 +65,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 
 ### Open source contributions
 
-24 merged pull requests, including:
+25 merged pull requests, including:
 
 - [playcanvas/engine#9798](https://github.com/playcanvas/engine/pull/9798): fix math.smoothstep and smootherstep when min is greater than max
 - [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518): return one empty column per column for empty query results
@@ -75,7 +75,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572): stop seek from throwing on a track without samples
 
 <details>
-<summary>18 more</summary>
+<summary>19 more</summary>
 
 - [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149): fix a silent crash when a Live2D model's texture is missing (OpenGL backend)
 - [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687): fix errors in the KeyboardCameraManipulator example
@@ -95,6 +95,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [NyarchLinux/NyarchAssistant#169](https://github.com/NyarchLinux/NyarchAssistant/pull/169): fix Live2D and VRM model names cut short in the model list
 - [qwersyk/Newelle#461](https://github.com/qwersyk/Newelle/pull/461): fix GGUF model names cut short in the llama.cpp model lists
 - [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75): add zhtw-guard to the curated i18n tools list
+- [AlaSQL/alasql#3076](https://github.com/AlaSQL/alasql/pull/3076): stop reusing a cached join index whose key reads a query parameter
 
 </details>
 
@@ -139,7 +140,7 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 | [hexsleuth](https://github.com/zzoraemon043/hexsleuth) | 讓 AI 從樣本檔推導二進位檔案格式，產出規格書、解析程式與測試（[npm](https://www.npmjs.com/package/hexsleuth)） |
 | [layerdesk](https://github.com/zzoraemon043/layerdesk) | 在瀏覽器整理 PSD 圖層並存回，檢查 Live2D／Spine 拆件問題（[線上試用](https://zzoraemon043.github.io/layerdesk/)） |
 
-其他作品：sqlpane、zhtw-guard、Dev Workbench、Web Mock Studio、opsleuth（說明見上方英文區）。已有 24 個 PR 合併進 PlayCanvas、DuckDB、Dexie、Cherry Studio 等開源專案。
+其他作品：sqlpane、zhtw-guard、Dev Workbench、Web Mock Studio、opsleuth（說明見上方英文區）。已有 25 個 PR 合併進 PlayCanvas、DuckDB、Dexie、Cherry Studio 等開源專案。
 
 <!-- 暫時隱藏
 ### 特殊貢獻
