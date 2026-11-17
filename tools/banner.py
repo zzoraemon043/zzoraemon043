@@ -100,7 +100,7 @@ def main():
     parts.append(title)
     line_y = 72 + name_h + title_h
     line, line_w, _ = glyph_rects(
-        "> offline-first dev tools", FONTS / "consola.ttf", 11, 2, tx, line_y, LAVENDER
+        "> tools for coding agents", FONTS / "consola.ttf", 11, 2, tx, line_y, LAVENDER
     )
     parts.append(line)
     parts.append(

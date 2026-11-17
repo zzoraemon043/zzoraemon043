@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Oba Yang: software tools, Live2D / Spine integration and offline-first developer tools" width="100%" />
+<img src="assets/banner.svg" alt="Oba Yang: software tools, Live2D / Spine integration and tools for coding agents" width="100%" />
 
 <br/>
 
@@ -10,10 +10,10 @@
 
 ### About me
 
-- I build **software and developer tools**: file viewers, editors, converters and CLIs
+- I build **developer tools**: CLIs, file viewers, editors and converters
+- I make tools for **running AI coding agents in parallel**
 - I work a lot with **Spine** skeletal animation and **Live2D / VTuber** models
-- I make **offline-first web tools** that run entirely in your browser, so nothing you paste leaves your machine
-- I am available for freelance work. See [obayang.com](https://obayang.com) for services and pricing
+- Most of my web tools run **offline in your browser**, so nothing you paste leaves your machine
 
 ### Featured projects
 
@@ -21,103 +21,82 @@
 <tr>
 <td width="50%" valign="top">
 
-#### [Spine Asset Inspector](https://github.com/zzoraemon043/spine-asset-inspector)
-Preview, debug and export Spine 2D animations in the browser: mix lab, skins, debug overlays, atlas unpacking, PNG / sprite sheet / WebM export.
+#### [nocollide](https://github.com/zzoraemon043/nocollide)
+Run parallel coding agents without collisions: each git worktree gets its own ports and `.env`. No containers, works with any agent.
 
-`React` `TypeScript` `WebGL` · [**Live demo**](https://zzoraemon043.github.io/spine-asset-inspector/)
+`TypeScript` `CLI` · [**npm**](https://www.npmjs.com/package/nocollide)
 
 </td>
 <td width="50%" valign="top">
 
+#### [Spine Asset Inspector](https://github.com/zzoraemon043/spine-asset-inspector)
+Preview, debug and export Spine 2D animations in the browser: mix lab, skins, debug overlays, atlas unpacking, PNG / sprite sheet / WebM export.
+
+`React` `WebGL` · [**Live demo**](https://zzoraemon043.github.io/spine-asset-inspector/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 #### [hexsleuth](https://github.com/zzoraemon043/hexsleuth)
-Hand an AI agent a few sample files and get back the format: a specification, a Kaitai Struct definition, a parser and tests, each backed by evidence.
+Hand an AI agent a few sample files and get back the format: a specification, a Kaitai Struct definition, a parser and tests.
 
 `TypeScript` `MCP` · [**npm**](https://www.npmjs.com/package/hexsleuth)
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [zhtw-guard](https://github.com/zzoraemon043/zhtw-guard)
-Finds Simplified characters, Mainland terms and encoding problems in code, docs and AI agent replies. CLI, GitHub Action and agent hooks.
-
-`TypeScript` `CLI` · [**npm**](https://www.npmjs.com/package/zhtw-guard)
-
-</td>
-<td width="50%" valign="top">
-
-#### [Dev Workbench](https://github.com/zzoraemon043/dev-workbench)
-One offline tab for JSON, Regex, JWT, Diff, encoder pipelines and WebSocket debugging.
-
-`React` `TypeScript` · [**Live demo**](https://zzoraemon043.github.io/dev-workbench/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [sqlpane](https://github.com/zzoraemon043/sqlpane)
-Drop in CSV, Excel, Parquet, SQLite or a MySQL / SQL Server dump and query it with SQL, offline in the browser on DuckDB-WASM.
-
-`TypeScript` `DuckDB` · [**Live demo**](https://zzoraemon043.github.io/sqlpane/)
-
-</td>
-<td width="50%" valign="top">
-
-#### [Web Mock Studio](https://github.com/zzoraemon043/web-mock-studio)
-Mock any API in your browser with a Service Worker, synthesize JSON Schema from samples, turn cURL into mock rules.
-
-`TypeScript` `Service Worker` · [**Live demo**](https://zzoraemon043.github.io/web-mock-studio/)
-
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### [layerdesk](https://github.com/zzoraemon043/layerdesk)
-Open a PSD in the browser, move, scale, rotate and group its layers, save it back. Includes a rigging check for Live2D and Spine.
+Open a PSD in the browser, rearrange its layers and save it back. Includes a rigging check for Live2D and Spine.
 
-`React` `TypeScript` `Canvas` · [**Live demo**](https://zzoraemon043.github.io/layerdesk/)
-
-</td>
-<td width="50%" valign="top">
-
-#### [opsleuth](https://github.com/zzoraemon043/opsleuth)
-Recover renumbered Lua 5.1 and LuaJIT 2.1 opcodes from the bytecode alone, then hand stock bytecode to your decompiler.
-
-`Python` `Lua` · [**Live demo**](https://zzoraemon043.github.io/opsleuth/)
+`React` `Canvas` · [**Live demo**](https://zzoraemon043.github.io/layerdesk/)
 
 </td>
 </tr>
 </table>
 
+**More:**
+[sqlpane](https://github.com/zzoraemon043/sqlpane) (SQL on CSV / Excel / Parquet / SQLite, offline) ·
+[zhtw-guard](https://github.com/zzoraemon043/zhtw-guard) (Traditional Chinese linter) ·
+[Dev Workbench](https://github.com/zzoraemon043/dev-workbench) (JSON, Regex, JWT, Diff in one tab) ·
+[Web Mock Studio](https://github.com/zzoraemon043/web-mock-studio) (mock APIs with a Service Worker) ·
+[opsleuth](https://github.com/zzoraemon043/opsleuth) (recover renumbered Lua opcodes)
+
 ### Open source contributions
 
-- [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149) (merged): fix a silent crash when a Live2D model's texture is missing (OpenGL backend)
-- [CherryHQ/cherry-studio#21954](https://github.com/CherryHQ/cherry-studio/pull/21954) (merged): stop CJK text files from being detected as binary
-- [dexie/Dexie.js#2353](https://github.com/dexie/Dexie.js/pull/2353) (merged): ignore errors from aborted liveQuery runs after unsubscribe
-- [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687) (merged): fix errors in the KeyboardCameraManipulator example
-- [holistics/dbml#1009](https://github.com/holistics/dbml/pull/1009) (merged): keep the written order of index columns when parsing
-- [ThatOpen/engine_components#835](https://github.com/ThatOpen/engine_components/pull/835) (merged): type FragmentsManager.init options correctly
-- [ormar-orm/ormar#1865](https://github.com/ormar-orm/ormar/pull/1865) (merged): make get() after exclude() report multiple matches
-- [greggman/twgl.js#246](https://github.com/greggman/twgl.js/pull/246) (merged): emit declare namespace for v3, m4 and primitives in the TypeScript definitions
-- [pycollada/pycollada#166](https://github.com/pycollada/pycollada/pull/166) (merged): drop XML comments and processing instructions when parsing COLLADA files with lxml
-- [dcmjs-org/dcmjs#610](https://github.com/dcmjs-org/dcmjs/pull/610) (merged): format DS numbers to 16 characters instead of cutting off the exponent
-- [AlaSQL/alasql#2602](https://github.com/AlaSQL/alasql/pull/2602) (merged): key the statement cache on the SQL text instead of its hash
-- [moeru-ai/airi#3026](https://github.com/moeru-ai/airi/pull/3026) (merged): load the Kokoro TTS model in the window that generates speech
-- [mozman/ezdxf#1449](https://github.com/mozman/ezdxf/pull/1449) (merged): allow line breaks between CJK characters in MTEXT layout
-- [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518) (merged): return one empty column per column for empty query results
-- [gkjohnson/three-gpu-pathtracer#896](https://github.com/gkjohnson/three-gpu-pathtracer/pull/896) (merged): fix a ReferenceError when a scene is generated a second time
-- [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572) (merged): stop seek from throwing on a track without samples
-- [gkjohnson/three-mesh-bvh#934](https://github.com/gkjohnson/three-mesh-bvh/pull/934) (merged): fix closestPointToSegment for segments crossing the triangle
-- [tortoise/tortoise-orm#2350](https://github.com/tortoise/tortoise-orm/pull/2350) (merged): keep auto_now values naive when use_tz is False
-- [lelit/pglast#226](https://github.com/lelit/pglast/pull/226) (merged): include the libpg_query upb sources in the sdist
-- [playcanvas/engine#9798](https://github.com/playcanvas/engine/pull/9798) (merged): fix math.smoothstep and smootherstep when min is greater than max
-- [abey79/vpype#872](https://github.com/abey79/vpype/pull/872) (merged): fix the plotter unit length of the HP 7550A configuration
-- [NyarchLinux/NyarchAssistant#169](https://github.com/NyarchLinux/NyarchAssistant/pull/169) (merged): fix Live2D and VRM model names cut short in the model list
-- [qwersyk/Newelle#461](https://github.com/qwersyk/Newelle/pull/461) (merged): fix GGUF model names cut short in the llama.cpp model lists
-- [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75) (merged): add zhtw-guard to the curated i18n tools list
+24 merged pull requests, including:
+
+- [playcanvas/engine#9798](https://github.com/playcanvas/engine/pull/9798): fix math.smoothstep and smootherstep when min is greater than max
+- [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518): return one empty column per column for empty query results
+- [dexie/Dexie.js#2353](https://github.com/dexie/Dexie.js/pull/2353): ignore errors from aborted liveQuery runs after unsubscribe
+- [CherryHQ/cherry-studio#21954](https://github.com/CherryHQ/cherry-studio/pull/21954): stop CJK text files from being detected as binary
+- [gkjohnson/three-mesh-bvh#934](https://github.com/gkjohnson/three-mesh-bvh/pull/934): fix closestPointToSegment for segments crossing the triangle
+- [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572): stop seek from throwing on a track without samples
+
+<details>
+<summary>18 more</summary>
+
+- [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149): fix a silent crash when a Live2D model's texture is missing (OpenGL backend)
+- [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687): fix errors in the KeyboardCameraManipulator example
+- [holistics/dbml#1009](https://github.com/holistics/dbml/pull/1009): keep the written order of index columns when parsing
+- [ThatOpen/engine_components#835](https://github.com/ThatOpen/engine_components/pull/835): type FragmentsManager.init options correctly
+- [ormar-orm/ormar#1865](https://github.com/ormar-orm/ormar/pull/1865): make get() after exclude() report multiple matches
+- [greggman/twgl.js#246](https://github.com/greggman/twgl.js/pull/246): emit declare namespace for v3, m4 and primitives in the TypeScript definitions
+- [pycollada/pycollada#166](https://github.com/pycollada/pycollada/pull/166): drop XML comments and processing instructions when parsing COLLADA files with lxml
+- [dcmjs-org/dcmjs#610](https://github.com/dcmjs-org/dcmjs/pull/610): format DS numbers to 16 characters instead of cutting off the exponent
+- [AlaSQL/alasql#2602](https://github.com/AlaSQL/alasql/pull/2602): key the statement cache on the SQL text instead of its hash
+- [moeru-ai/airi#3026](https://github.com/moeru-ai/airi/pull/3026): load the Kokoro TTS model in the window that generates speech
+- [mozman/ezdxf#1449](https://github.com/mozman/ezdxf/pull/1449): allow line breaks between CJK characters in MTEXT layout
+- [gkjohnson/three-gpu-pathtracer#896](https://github.com/gkjohnson/three-gpu-pathtracer/pull/896): fix a ReferenceError when a scene is generated a second time
+- [tortoise/tortoise-orm#2350](https://github.com/tortoise/tortoise-orm/pull/2350): keep auto_now values naive when use_tz is False
+- [lelit/pglast#226](https://github.com/lelit/pglast/pull/226): include the libpg_query upb sources in the sdist
+- [abey79/vpype#872](https://github.com/abey79/vpype/pull/872): fix the plotter unit length of the HP 7550A configuration
+- [NyarchLinux/NyarchAssistant#169](https://github.com/NyarchLinux/NyarchAssistant/pull/169): fix Live2D and VRM model names cut short in the model list
+- [qwersyk/Newelle#461](https://github.com/qwersyk/Newelle/pull/461): fix GGUF model names cut short in the llama.cpp model lists
+- [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75): add zhtw-guard to the curated i18n tools list
+
+</details>
 
 <!-- 暫時隱藏
 ### Special contributions
@@ -141,11 +120,7 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
 ![Live2D](https://img.shields.io/badge/Live2D-FF6B9D?style=flat-square)
@@ -155,52 +130,16 @@ Private repositories. For complete AICL/達楓/青蘋果 (repair in progress) se
 
 ## 繁體中文
 
-### 關於我
-
-- 開發**軟體與開發者工具**：檔案檢視器、編輯器、轉檔工具與命令列工具
-- 常和 **Spine** 骨架動畫、**Live2D／VTuber** 模型打交道
-- 做**離線優先的網頁工具**：全部在瀏覽器裡執行，貼進去的東西不會離開你的電腦
-- 開放接案，服務與價格請見 [obayang.com](https://obayang.com)
-
-### 作品
+開發者工具、AI 寫程式代理的平行開發工具，以及 Spine／Live2D 相關的離線網頁工具。開放接案，服務與價格請見 [obayang.com](https://obayang.com)。
 
 | 專案 | 說明 |
 |---|---|
-| [Spine Asset Inspector](https://github.com/zzoraemon043/spine-asset-inspector) | 在瀏覽器檢視、除錯、匯出 Spine 動畫：混合測試、Skin 組合、除錯疊圖、圖集拆解、PNG／序列幀／WebM 匯出（[線上試用](https://zzoraemon043.github.io/spine-asset-inspector/)） |
-| [hexsleuth](https://github.com/zzoraemon043/hexsleuth) | 讓 AI 從樣本檔推導二進位檔案格式，產出規格書、Kaitai Struct 定義、解析程式與測試（[npm](https://www.npmjs.com/package/hexsleuth)） |
-| [zhtw-guard](https://github.com/zzoraemon043/zhtw-guard) | 找出程式碼、文件與 AI 回覆中混入的簡體字、大陸用語與編碼問題（[npm](https://www.npmjs.com/package/zhtw-guard)） |
-| [Dev Workbench](https://github.com/zzoraemon043/dev-workbench) | 一個分頁搞定 JSON、正規表達式、JWT、文字比對、編碼轉換與 WebSocket 除錯（[線上試用](https://zzoraemon043.github.io/dev-workbench/)） |
-| [sqlpane](https://github.com/zzoraemon043/sqlpane) | 拖進 CSV、Excel、Parquet、SQLite 或 MySQL／SQL Server 匯出檔，直接用 SQL 查詢，離線在瀏覽器執行（[線上試用](https://zzoraemon043.github.io/sqlpane/)） |
-| [layerdesk](https://github.com/zzoraemon043/layerdesk) | 在瀏覽器打開 PSD，拖曳、縮放、旋轉、整理圖層後存回 PSD，並檢查匯入 Live2D／Spine 前的拆件問題（[線上試用](https://zzoraemon043.github.io/layerdesk/)） |
-| [opsleuth](https://github.com/zzoraemon043/opsleuth) | 只靠位元碼自動還原被重新編號的 Lua 5.1／LuaJIT 2.1 opcode，輸出標準位元碼交給反編譯器（[線上試用](https://zzoraemon043.github.io/opsleuth/)） |
-| [Web Mock Studio](https://github.com/zzoraemon043/web-mock-studio) | 在瀏覽器裡模擬 API、從範例反推 JSON Schema、cURL 轉模擬規則（[線上試用](https://zzoraemon043.github.io/web-mock-studio/)） |
+| [nocollide](https://github.com/zzoraemon043/nocollide) | 同時跑多個 AI 寫程式代理不打架：每個 git worktree 有自己的埠與 .env，不用容器（[npm](https://www.npmjs.com/package/nocollide)） |
+| [Spine Asset Inspector](https://github.com/zzoraemon043/spine-asset-inspector) | 在瀏覽器檢視、除錯、匯出 Spine 動畫（[線上試用](https://zzoraemon043.github.io/spine-asset-inspector/)） |
+| [hexsleuth](https://github.com/zzoraemon043/hexsleuth) | 讓 AI 從樣本檔推導二進位檔案格式，產出規格書、解析程式與測試（[npm](https://www.npmjs.com/package/hexsleuth)） |
+| [layerdesk](https://github.com/zzoraemon043/layerdesk) | 在瀏覽器整理 PSD 圖層並存回，檢查 Live2D／Spine 拆件問題（[線上試用](https://zzoraemon043.github.io/layerdesk/)） |
 
-### 開源貢獻
-
-- [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149)（已合併）：修正 Live2D 模型缺少貼圖時無聲閃退的問題
-- [CherryHQ/cherry-studio#21954](https://github.com/CherryHQ/cherry-studio/pull/21954)（已合併）：修正中日韓文字檔被誤判為二進位檔的問題
-- [dexie/Dexie.js#2353](https://github.com/dexie/Dexie.js/pull/2353)（已合併）：修正 liveQuery 取消訂閱後，被中止的查詢仍丟出錯誤
-- [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687)（已合併）：修正鍵盤控制 3D 相機範例執行時報錯
-- [holistics/dbml#1009](https://github.com/holistics/dbml/pull/1009)（已合併）：修正解析資料庫索引時欄位順序被打亂
-- [ThatOpen/engine_components#835](https://github.com/ThatOpen/engine_components/pull/835)（已合併）：修正 BIM 3D 引擎初始化參數的型別定義
-- [ormar-orm/ormar#1865](https://github.com/ormar-orm/ormar/pull/1865)（已合併）：修正 Python ORM 用排除條件查詢時，多筆結果沒有回報錯誤
-- [greggman/twgl.js#246](https://github.com/greggman/twgl.js/pull/246)（已合併）：修正 WebGL 函式庫的 TypeScript 型別定義，讓 v3、m4 等模組可以正常引用
-- [pycollada/pycollada#166](https://github.com/pycollada/pycollada/pull/166)（已合併）：修正 3D 模型格式 COLLADA 檔案含註解時讀取失敗
-- [dcmjs-org/dcmjs#610](https://github.com/dcmjs-org/dcmjs/pull/610)（已合併）：修正醫療影像 DICOM 檔案寫入小數時，科學記號的指數被截掉
-- [AlaSQL/alasql#2602](https://github.com/AlaSQL/alasql/pull/2602)（已合併）：修正 JavaScript SQL 資料庫快取碰撞，兩句不同的 SQL 會拿到同一個結果
-- [moeru-ai/airi#3026](https://github.com/moeru-ai/airi/pull/3026)（已合併）：修正 AI 虛擬角色桌面版在設定視窗試聽 Kokoro 語音時報錯
-- [mozman/ezdxf#1449](https://github.com/mozman/ezdxf/pull/1449)（已合併）：修正 CAD 圖檔 DXF 多行文字排版時，中文長句不會自動換行
-- [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518)（已合併）：修正 DuckDB 的 Node.js 套件查詢結果沒有資料時，連欄位都拿不到
-- [gkjohnson/three-gpu-pathtracer#896](https://github.com/gkjohnson/three-gpu-pathtracer/pull/896)（已合併）：修正 WebGL 路徑追蹤渲染器第二次產生場景時報錯
-- [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572)（已合併）：修正 MP4 解析函式庫在沒有樣本的軌道上跳轉時報錯
-- [gkjohnson/three-mesh-bvh#934](https://github.com/gkjohnson/three-mesh-bvh/pull/934)（已合併）：修正線段穿過三角形時 closestPointToSegment 的結果
-- [tortoise/tortoise-orm#2350](https://github.com/tortoise/tortoise-orm/pull/2350)（已合併）：修正 Python 非同步 ORM 關閉時區時，自動時間欄位仍帶時區
-- [lelit/pglast#226](https://github.com/lelit/pglast/pull/226)（已合併）：修正 PostgreSQL 語法解析套件的原始碼發布包缺檔，無法從原始碼安裝
-- [playcanvas/engine#9798](https://github.com/playcanvas/engine/pull/9798)（已合併）：修正 PlayCanvas 3D 引擎的平滑插值函式在最小值大於最大值時算錯
-- [abey79/vpype#872](https://github.com/abey79/vpype/pull/872)（已合併）：修正向量繪圖工具 HP 7550A 繪圖機設定的單位長度
-- [NyarchLinux/NyarchAssistant#169](https://github.com/NyarchLinux/NyarchAssistant/pull/169)（已合併）：修正 AI 桌面助理的 Live2D／VRM 模型清單名稱被截掉字尾
-- [qwersyk/Newelle#461](https://github.com/qwersyk/Newelle/pull/461)（已合併）：修正 AI 助理 Newelle 本機模型清單的 GGUF 模型名稱被截掉字尾
-- [oh-jon-paul/awesome-i18n#75](https://github.com/oh-jon-paul/awesome-i18n/pull/75)（已合併）：zhtw-guard 收錄進國際化工具精選清單 awesome-i18n
+其他作品：sqlpane、zhtw-guard、Dev Workbench、Web Mock Studio、opsleuth（說明見上方英文區）。已有 24 個 PR 合併進 PlayCanvas、DuckDB、Dexie、Cherry Studio 等開源專案。
 
 <!-- 暫時隱藏
 ### 特殊貢獻
