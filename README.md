@@ -65,7 +65,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 
 ### Open source contributions
 
-27 merged pull requests, including:
+28 merged pull requests, including:
 
 - [playcanvas/engine#9798](https://github.com/playcanvas/engine/pull/9798): fix math.smoothstep and smootherstep when min is greater than max
 - [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518): return one empty column per column for empty query results
@@ -75,7 +75,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572): stop seek from throwing on a track without samples
 
 <details>
-<summary>21 more</summary>
+<summary>22 more</summary>
 
 - [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149): fix a silent crash when a Live2D model's texture is missing (OpenGL backend)
 - [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687): fix errors in the KeyboardCameraManipulator example
@@ -98,6 +98,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [AlaSQL/alasql#3076](https://github.com/AlaSQL/alasql/pull/3076): stop reusing a cached join index whose key reads a query parameter
 - [harttle/liquidjs#999](https://github.com/harttle/liquidjs/pull/999): accept whitespace control on endraw and keep entities in escape_once
 - [Salamek/cron-descriptor#122](https://github.com/Salamek/cron-descriptor/pull/122): describe # and L day-of-week items separately from plain weekdays in a mixed list
+- [bradymholt/cRonstrue#445](https://github.com/bradymholt/cRonstrue/pull/445): describe plain weekdays and # weekdays separately in a day-of-week list
 
 </details>
 
