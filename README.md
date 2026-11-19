@@ -100,6 +100,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [Salamek/cron-descriptor#122](https://github.com/Salamek/cron-descriptor/pull/122): describe # and L day-of-week items separately from plain weekdays in a mixed list
 - [bradymholt/cRonstrue#445](https://github.com/bradymholt/cRonstrue/pull/445): describe plain weekdays and # weekdays separately in a day-of-week list
 - [dbcli/mycli#2449](https://github.com/dbcli/mycli/pull/2449): keep $1 from matching the start of $10 and above in favorite query arguments
+- [i18next/i18next-cli#332](https://github.com/i18next/i18next-cli/pull/332): match whole option names when finding count and context in nested translations
 
 </details>
 
