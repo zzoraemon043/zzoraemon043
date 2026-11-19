@@ -99,6 +99,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [harttle/liquidjs#999](https://github.com/harttle/liquidjs/pull/999): accept whitespace control on endraw and keep entities in escape_once
 - [Salamek/cron-descriptor#122](https://github.com/Salamek/cron-descriptor/pull/122): describe # and L day-of-week items separately from plain weekdays in a mixed list
 - [bradymholt/cRonstrue#445](https://github.com/bradymholt/cRonstrue/pull/445): describe plain weekdays and # weekdays separately in a day-of-week list
+- [dbcli/mycli#2449](https://github.com/dbcli/mycli/pull/2449): keep $1 from matching the start of $10 and above in favorite query arguments
 
 </details>
 
