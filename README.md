@@ -65,7 +65,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 
 ### Open source contributions
 
-36 merged pull requests, including:
+37 merged pull requests, including:
 
 - [playcanvas/engine#9798](https://github.com/playcanvas/engine/pull/9798): fix math.smoothstep and smootherstep when min is greater than max
 - [duckdb/duckdb-node-neo#518](https://github.com/duckdb/duckdb-node-neo/pull/518): return one empty column per column for empty query results
@@ -75,7 +75,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [gpac/mp4box.js#572](https://github.com/gpac/mp4box.js/pull/572): stop seek from throwing on a track without samples
 
 <details>
-<summary>28 more</summary>
+<summary>29 more</summary>
 
 - [EasyLive2D/live2d-py#149](https://github.com/EasyLive2D/live2d-py/pull/149): fix a silent crash when a Live2D model's texture is missing (OpenGL backend)
 - [Kitware/vtk-js#3687](https://github.com/Kitware/vtk-js/pull/3687): fix errors in the KeyboardCameraManipulator example
@@ -105,6 +105,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [AlaSQL/alasql#3085](https://github.com/AlaSQL/alasql/pull/3085): declare the missing options in the AlaSQLOptions type
 - [bradymholt/cron-expression-descriptor#208](https://github.com/bradymholt/cron-expression-descriptor/pull/208): describe plain, # and L days separately in a day-of-week list
 - [Hexagon/croner#468](https://github.com/Hexagon/croner/pull/468): reject day-of-week 8 when alternativeWeekdays is on
+- [jkroso/parse-duration#80](https://github.com/jkroso/parse-duration/pull/80): add type declarations for the locale modules
 
 </details>
 
