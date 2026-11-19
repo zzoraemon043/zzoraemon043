@@ -101,6 +101,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [bradymholt/cRonstrue#445](https://github.com/bradymholt/cRonstrue/pull/445): describe plain weekdays and # weekdays separately in a day-of-week list
 - [dbcli/mycli#2449](https://github.com/dbcli/mycli/pull/2449): keep $1 from matching the start of $10 and above in favorite query arguments
 - [i18next/i18next-cli#332](https://github.com/i18next/i18next-cli/pull/332): match whole option names when finding count and context in nested translations
+- [iTowns/itowns#2868](https://github.com/iTowns/itowns/pull/2868): clear tile update state and links when a geometry layer is deleted
 
 </details>
 
