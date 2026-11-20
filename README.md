@@ -106,6 +106,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [bradymholt/cron-expression-descriptor#208](https://github.com/bradymholt/cron-expression-descriptor/pull/208): describe plain, # and L days separately in a day-of-week list
 - [Hexagon/croner#468](https://github.com/Hexagon/croner/pull/468): reject day-of-week 8 when alternativeWeekdays is on
 - [jkroso/parse-duration#80](https://github.com/jkroso/parse-duration/pull/80): add type declarations for the locale modules
+- [mozman/ezdxf#1478](https://github.com/mozman/ezdxf/pull/1478): make the C Matrix44 is_cartesian and perspective_projection results match the Python implementation
 
 </details>
 
