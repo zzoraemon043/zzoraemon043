@@ -108,6 +108,8 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [jkroso/parse-duration#80](https://github.com/jkroso/parse-duration/pull/80): add type declarations for the locale modules
 - [mozman/ezdxf#1478](https://github.com/mozman/ezdxf/pull/1478): make the C Matrix44 is_cartesian and perspective_projection results match the Python implementation
 - [gorakhargosh/watchdog#1471](https://github.com/gorakhargosh/watchdog/pull/1471): stop Windows get_events from timing out
+- [gpac/mp4box.js#583](https://github.com/gpac/mp4box.js/pull/583): seek no longer returns a NaN offset on fragmented files
+- [harttle/liquidjs#1002](https://github.com/harttle/liquidjs/pull/1002): split by code point when the separator is empty
 
 </details>
 
