@@ -115,6 +115,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [harttle/liquidjs#1002](https://github.com/harttle/liquidjs/pull/1002): split by code point when the separator is empty
 - [Salamek/cron-descriptor#127](https://github.com/Salamek/cron-descriptor/pull/127): describe Sunday once when day-of-week uses both 0 and 7
 - [i18next/i18next-cli#334](https://github.com/i18next/i18next-cli/pull/334): only read and write own keys, so keys like constructor or toString are extracted
+- [gpac/mp4box.js#587](https://github.com/gpac/mp4box.js/pull/587): read all three bits of numTemporalLayers in hvcC and lhvC
 
 </details>
 
