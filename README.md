@@ -113,6 +113,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [gorakhargosh/watchdog#1471](https://github.com/gorakhargosh/watchdog/pull/1471): stop Windows get_events from timing out
 - [gpac/mp4box.js#583](https://github.com/gpac/mp4box.js/pull/583): seek no longer returns a NaN offset on fragmented files
 - [harttle/liquidjs#1002](https://github.com/harttle/liquidjs/pull/1002): split by code point when the separator is empty
+- [Salamek/cron-descriptor#127](https://github.com/Salamek/cron-descriptor/pull/127): describe Sunday once when day-of-week uses both 0 and 7
 
 </details>
 
