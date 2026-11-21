@@ -116,6 +116,8 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [Salamek/cron-descriptor#127](https://github.com/Salamek/cron-descriptor/pull/127): describe Sunday once when day-of-week uses both 0 and 7
 - [i18next/i18next-cli#334](https://github.com/i18next/i18next-cli/pull/334): only read and write own keys, so keys like constructor or toString are extracted
 - [gpac/mp4box.js#587](https://github.com/gpac/mp4box.js/pull/587): read all three bits of numTemporalLayers in hvcC and lhvC
+- [harttle/liquidjs#1009](https://github.com/harttle/liquidjs/pull/1009): support %D, %F, %R, %r, %T and the ISO week formats %G, %g, %V in the date filter
+- [dbcli/mycli#2452](https://github.com/dbcli/mycli/pull/2452): quote table, schema and column names in sql-insert and sql-update output
 
 </details>
 
