@@ -119,6 +119,8 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [harttle/liquidjs#1009](https://github.com/harttle/liquidjs/pull/1009): support %D, %F, %R, %r, %T and the ISO week formats %G, %g, %V in the date filter
 - [dbcli/mycli#2452](https://github.com/dbcli/mycli/pull/2452): quote table, schema and column names in sql-insert and sql-update output
 - [mozman/ezdxf#1483](https://github.com/mozman/ezdxf/pull/1483): keep zero-length dashes as points in the C linetype renderer
+- [dbcli/mycli#2457](https://github.com/dbcli/mycli/pull/2457): close backticked names that end or start with an escaped backtick
+- [gkjohnson/three-mesh-bvh#1005](https://github.com/gkjohnson/three-mesh-bvh/pull/1005): fix OrientedBox.distanceToBox throwing when targets are passed for intersecting boxes
 
 </details>
 
