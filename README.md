@@ -118,6 +118,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [gpac/mp4box.js#587](https://github.com/gpac/mp4box.js/pull/587): read all three bits of numTemporalLayers in hvcC and lhvC
 - [harttle/liquidjs#1009](https://github.com/harttle/liquidjs/pull/1009): support %D, %F, %R, %r, %T and the ISO week formats %G, %g, %V in the date filter
 - [dbcli/mycli#2452](https://github.com/dbcli/mycli/pull/2452): quote table, schema and column names in sql-insert and sql-update output
+- [mozman/ezdxf#1483](https://github.com/mozman/ezdxf/pull/1483): keep zero-length dashes as points in the C linetype renderer
 
 </details>
 
