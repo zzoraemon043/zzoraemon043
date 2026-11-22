@@ -124,6 +124,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [ormar-orm/ormar#2015](https://github.com/ormar-orm/ormar/pull/2015): escape % and _ in iexact filters so they match literally
 - [Salamek/cron-descriptor#128](https://github.com/Salamek/cron-descriptor/pull/128): run format tests that were skipped for missing the test_ prefix
 - [nackjicholson/aiosql#237](https://github.com/nackjicholson/aiosql/pull/237): skip -- line comments when looking for :name parameters
+- [gpac/mp4box.js#589](https://github.com/gpac/mp4box.js/pull/589): read and write mvhd and tkhd volume as 8.8 fixed point
 
 </details>
 
