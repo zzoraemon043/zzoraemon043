@@ -121,6 +121,8 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [mozman/ezdxf#1483](https://github.com/mozman/ezdxf/pull/1483): keep zero-length dashes as points in the C linetype renderer
 - [dbcli/mycli#2457](https://github.com/dbcli/mycli/pull/2457): close backticked names that end or start with an escaped backtick
 - [gkjohnson/three-mesh-bvh#1005](https://github.com/gkjohnson/three-mesh-bvh/pull/1005): fix OrientedBox.distanceToBox throwing when targets are passed for intersecting boxes
+- [ormar-orm/ormar#2015](https://github.com/ormar-orm/ormar/pull/2015): escape % and _ in iexact filters so they match literally
+- [Salamek/cron-descriptor#128](https://github.com/Salamek/cron-descriptor/pull/128): run format tests that were skipped for missing the test_ prefix
 
 </details>
 
