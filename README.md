@@ -128,6 +128,8 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [mozman/ezdxf#1486](https://github.com/mozman/ezdxf/pull/1486): stop the C Bezier3P and Bezier4P from raising TypeError when tuple control points are passed
 - [Salamek/cron-descriptor#129](https://github.com/Salamek/cron-descriptor/pull/129): describe start/step items inside comma lists instead of dropping the start or raising FormatError
 - [dbcli/mycli#2460](https://github.com/dbcli/mycli/pull/2460): accept DELIMITER values containing a semicolon, such as the ;; used in mysqldump output
+- [gpac/mp4box.js#590](https://github.com/gpac/mp4box.js/pull/590): rebuild VVC constraint bytes in the order stored in vvcC
+- [bradymholt/cRonstrue#448](https://github.com/bradymholt/cRonstrue/pull/448): describe Sunday once when a day-of-week field uses both 0 and 7
 
 </details>
 
