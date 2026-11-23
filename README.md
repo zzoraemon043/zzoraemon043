@@ -130,6 +130,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [dbcli/mycli#2460](https://github.com/dbcli/mycli/pull/2460): accept DELIMITER values containing a semicolon, such as the ;; used in mysqldump output
 - [gpac/mp4box.js#590](https://github.com/gpac/mp4box.js/pull/590): rebuild VVC constraint bytes in the order stored in vvcC
 - [bradymholt/cRonstrue#448](https://github.com/bradymholt/cRonstrue/pull/448): describe Sunday once when a day-of-week field uses both 0 and 7
+- [bradymholt/cron-expression-descriptor#221](https://github.com/bradymholt/cron-expression-descriptor/pull/221): describe Sunday once when a day-of-week field uses both 0 and 7
 
 </details>
 
