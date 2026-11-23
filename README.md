@@ -126,6 +126,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [nackjicholson/aiosql#237](https://github.com/nackjicholson/aiosql/pull/237): skip -- line comments when looking for :name parameters
 - [gpac/mp4box.js#589](https://github.com/gpac/mp4box.js/pull/589): read and write mvhd and tkhd volume as 8.8 fixed point
 - [mozman/ezdxf#1486](https://github.com/mozman/ezdxf/pull/1486): stop the C Bezier3P and Bezier4P from raising TypeError when tuple control points are passed
+- [Salamek/cron-descriptor#129](https://github.com/Salamek/cron-descriptor/pull/129): describe start/step items inside comma lists instead of dropping the start or raising FormatError
 
 </details>
 
