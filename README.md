@@ -135,6 +135,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [fabricjs/fabric.js#11225](https://github.com/fabricjs/fabric.js/pull/11225): restore the canvas state in toCanvasElement when rendering throws
 - [reata/sqllineage#877](https://github.com/reata/sqllineage/pull/877): column lineage through a VALUES list with column aliases, like CROSS APPLY (VALUES ...)
 - [reata/sqllineage#882](https://github.com/reata/sqllineage/pull/882): column lineage through array constructors like ARRAY[col1, col2] and [col1, col2]
+- [bradymholt/cron-expression-descriptor#224](https://github.com/bradymholt/cron-expression-descriptor/pull/224): read L in a day-of-week list as Saturday
 
 </details>
 
