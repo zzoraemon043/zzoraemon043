@@ -132,6 +132,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [bradymholt/cRonstrue#448](https://github.com/bradymholt/cRonstrue/pull/448): describe Sunday once when a day-of-week field uses both 0 and 7
 - [bradymholt/cron-expression-descriptor#221](https://github.com/bradymholt/cron-expression-descriptor/pull/221): describe Sunday once when a day-of-week field uses both 0 and 7
 - [Hexagon/croner#469](https://github.com/Hexagon/croner/pull/469): treat SUN-SUN as Sunday only instead of every day
+- [fabricjs/fabric.js#11225](https://github.com/fabricjs/fabric.js/pull/11225): restore the canvas state in toCanvasElement when rendering throws
 
 </details>
 
