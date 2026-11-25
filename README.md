@@ -141,6 +141,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [greggman/twgl.js#248](https://github.com/greggman/twgl.js/pull/248): make m4.frustum map depth to -1..1 like perspective and ortho
 - [lelit/pglast#247](https://github.com/lelit/pglast/pull/247): print COPY options HEADER 1 and REJECT_LIMIT n so they parse back
 - [reata/sqllineage#885](https://github.com/reata/sqllineage/pull/885): column lineage through struct constructors and named function arguments
+- [jkroso/parse-duration#81](https://github.com/jkroso/parse-duration/pull/81): read counter-word units in the ja and zh locales (3日間, 3ヶ月間, 3个月)
 
 </details>
 
