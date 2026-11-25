@@ -140,6 +140,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [svenfuchs/rails-i18n#1190](https://github.com/svenfuchs/rails-i18n/pull/1190): Icelandic (is): pluralize 21, 31, 101, ... as one (CLDR)
 - [greggman/twgl.js#248](https://github.com/greggman/twgl.js/pull/248): make m4.frustum map depth to -1..1 like perspective and ortho
 - [lelit/pglast#247](https://github.com/lelit/pglast/pull/247): print COPY options HEADER 1 and REJECT_LIMIT n so they parse back
+- [reata/sqllineage#885](https://github.com/reata/sqllineage/pull/885): column lineage through struct constructors and named function arguments
 
 </details>
 
