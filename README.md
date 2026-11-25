@@ -144,6 +144,8 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [jkroso/parse-duration#81](https://github.com/jkroso/parse-duration/pull/81): read counter-word units in the ja and zh locales (3日間, 3ヶ月間, 3个月)
 - [dbcli/mycli#2473](https://github.com/dbcli/mycli/pull/2473): give the destructive warning for a DELETE or UPDATE that follows a WITH clause
 - [bradymholt/cron-expression-descriptor#226](https://github.com/bradymholt/cron-expression-descriptor/pull/226): read a list that has * as one of its items as *
+- [bradymholt/cRonstrue#455](https://github.com/bradymholt/cRonstrue/pull/455): describe a range in a stepped day-of-week list like the list's other items, with the missing "and"
+- [harttle/liquidjs#1012](https://github.com/harttle/liquidjs/pull/1012): treat a negative offset or limit in for and tablerow like Ruby Liquid
 
 </details>
 
