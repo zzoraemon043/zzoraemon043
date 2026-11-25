@@ -142,6 +142,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [lelit/pglast#247](https://github.com/lelit/pglast/pull/247): print COPY options HEADER 1 and REJECT_LIMIT n so they parse back
 - [reata/sqllineage#885](https://github.com/reata/sqllineage/pull/885): column lineage through struct constructors and named function arguments
 - [jkroso/parse-duration#81](https://github.com/jkroso/parse-duration/pull/81): read counter-word units in the ja and zh locales (3日間, 3ヶ月間, 3个月)
+- [dbcli/mycli#2473](https://github.com/dbcli/mycli/pull/2473): give the destructive warning for a DELETE or UPDATE that follows a WITH clause
 
 </details>
 
