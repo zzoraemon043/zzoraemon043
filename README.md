@@ -148,6 +148,7 @@ Open a PSD in the browser, rearrange its layers and save it back. Includes a rig
 - [harttle/liquidjs#1012](https://github.com/harttle/liquidjs/pull/1012): treat a negative offset or limit in for and tablerow like Ruby Liquid
 - [reata/sqllineage#888](https://github.com/reata/sqllineage/pull/888): column lineage through lambda functions like transform(col1, x -> x + col2)
 - [harttle/liquidjs#1017](https://github.com/harttle/liquidjs/pull/1017): support nested comment blocks like Ruby Liquid, so an inner endcomment no longer closes the outer comment
+- [vuejs/eslint-plugin-vue#3267](https://github.com/vuejs/eslint-plugin-vue/pull/3267): make no-template-shadow report template variables that shadow inject properties
 
 </details>
 
